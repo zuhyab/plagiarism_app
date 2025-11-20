@@ -30,13 +30,13 @@ Displays plagiarism percentage for each pair
 Open text files inside the app
 Secure downloading with path sanitization
 
-📁 Project Structure
-Based on your project screenshot:
 
-Flask-Plagiarism-Checker/
+
+📁 Flask-Plagiarism-Checker/
 │
-├── .idea/                     # (IDE folder - optional)
+├── .idea/                     # IDE folder (optional)
 ├── __pycache__/               # Python cache files
+│
 ├── instance/                  # Flask instance folder
 │   └── users.db               # SQLite database
 │
@@ -49,12 +49,12 @@ Flask-Plagiarism-Checker/
 │   ├── user_dashboard.html
 │   ├── admin_dashboard.html
 │   ├── view_file.html
-│   └── ...(other templates if any)
+│   └── ...                    # Add any other templates here
 │
 ├── app.py                     # Main Flask application
 ├── auth.py                    # Authentication Blueprint
-├── database.py                # DB initialization + default admin
-├── models.py                  # User model + SQLAlchemy setup
-├── plagiarism_checker.py      # Plagiarism logic + dashboards
+├── database.py                # DB initialization + default admin creation
+├── models.py                  # SQLAlchemy models (User, etc.)
+├── plagiarism_checker.py      # Plagiarism logic + dashboard routes
 │
-└── users                      # Database file (SQLite)
+└── users                      # (If this is a folder or file, rename clearly)
