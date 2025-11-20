@@ -32,6 +32,7 @@ Secure downloading with path sanitization
 
 📁 Project Structure
 Based on your project screenshot:
+
 Flask-Plagiarism-Checker/
 │
 ├── .idea/                     # (IDE folder - optional)
